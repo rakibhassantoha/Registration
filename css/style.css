@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: serif;
+	font-size:14px;
+	line-height:24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:sans-serif;
+}
+a, a:hover{
+	text-decoration:none;
+}
+/*************************CSS Start form here**************************/
+.login-box{
+	width: 40%;
+	margin:50px auto;
+}
+.main-from{
+	width: 100%;
+	padding: 50px;
+	background: #eee;
+	border: 3px solid red;
+	border-radius: 15px;
+}
+.main-from .avater-img{
+	width: 100%;
+	text-align: center;
+}
+.main-from .avater-img .avater{
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border: 2px solid red;
+}
+.main-from h2{
+	font-size: 32px;
+	line-height: 42px;
+	color: red;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px 10px;
+	width: 400;
+}
+.main-from .form-group{
+	width: 100%;
+	margin: 20px 0px;
+}
+.main-from .form-group label{
+	display: block;
+	font-size: 20px;
+	color: #333;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin:0px 0px 10px;
+}
+.main-from .form-control{
+	width: 97%;
+	padding: 10px;
+	font-size: 13px;
+	border: 1px solid #000;
+}
+.main-from .btn-btn{
+	padding: 15px 15px;
+	border: 1px solid #fff;
+	background: green;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 6px 0px 0px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.main-from .btn-btn:hover{
+	transition: 1s;
+	border: 1px solid #fff;
+	background: red;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+.container{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	margin-top:0px;
+}
+
+h1{
+	font-size: 50px;
+	color: green;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+p{
+	font-size: 40px;
+	color: #fff;
+	padding: 0px 0px 0px 20px;
+}
