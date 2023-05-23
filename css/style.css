@@ -1,110 +1,268 @@
 *{
-	margin: 0px;
 	padding: 0px;
+	margin: 0px;
 }
 body{
-	font-family: serif;
-	font-size:14px;
-	line-height:24px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
 }
 h1, h2, h3, h4, h5, h6{
-	font-family:sans-serif;
+	font-family: 'Poppins', sans-serif;
+
 }
+
 a, a:hover{
-	text-decoration:none;
+	text-decoration: none;
 }
-/*************************CSS Start form here**************************/
-.login-box{
-	width: 40%;
-	margin:50px auto;
+
+/* header code start */
+.col-lg-3{
+	width: 25%;
+	float: left;
+
 }
-.main-from{
+.col-lg-4{
+	width: 33.33%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+.col-lg-9{
+	width: 75%;
+	float: left;
+}
+.col-lg-12{
 	width: 100%;
-	padding: 50px;
-	background: #eee;
-	border: 3px solid red;
-	border-radius: 15px;
+	float: left;
 }
-.main-from .avater-img{
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
 	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #eee;
+	padding: 15px 0px;
+}
+
+
+.header .logo{
+	display: block;
+	width: 100%;
+}
+
+.header .rakib{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+
+.header .rakib li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px 0px;
+}
+
+.header .rakib li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #526285;
+	margin: 0px 0px 0px 25px;
+}
+
+/* Online-business css code start */
+
+.online-business{
+	width: 100%;
+	float: left;
+	padding: 70px 0px;
 	text-align: center;
 }
-.main-from .avater-img .avater{
-	width: 200px;
-	height: 200px;
-	border-radius: 150px;
-	border: 2px solid red;
+
+.online-business h1{
+	font-size: 70px;
+	line-height: 80px;
+	color: #0B2253;
+
 }
-.main-from h2{
-	font-size: 32px;
-	line-height: 42px;
-	color: red;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 15px 10px;
-	width: 400;
+
+.online-business h1 span{
+	color: #36A3FF;
+
 }
-.main-from .form-group{
-	width: 100%;
+
+.online-business p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	margin: 0px 0px 10px;
+
+}
+
+.online-business .business-img{
+	width: 70%;
 	margin: 20px 0px;
 }
-.main-from .form-group label{
-	display: block;
-	font-size: 20px;
-	color: #333;
-	line-height: 30px;
-	text-transform: uppercase;
-	font-weight: 600;
-	margin:0px 0px 10px;
-}
-.main-from .form-control{
-	width: 97%;
-	padding: 10px;
-	font-size: 13px;
-	border: 1px solid #000;
-}
-.main-from .btn-btn{
-	padding: 15px 15px;
-	border: 1px solid #fff;
-	background: green;
-	color: #fff;
-	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	margin: 6px 0px 0px;
-	cursor: pointer;
-	border-radius: 10px;
-}
-.main-from .btn-btn:hover{
-	transition: 1s;
-	border: 1px solid #fff;
-	background: red;
-	color: #000;
-}
 
+/* Online-business css code End */
 
+/* successfull section css start */
 
-
-
-
-
-
-.container{
+.successfull{
 	width: 100%;
-	height: 300px;
-	background-color: red;
-	margin-top:0px;
+	float: left;
+	padding: 30px 0px 80px;
 }
 
-h1{
-	font-size: 50px;
-	color: green;
-	padding-top:30px;
-	padding-bottom:30px;
+.successfull .left-text{
+	width: 100%;
+	float: left;
+	text-align: right;
 }
-p{
-	font-size: 40px;
+.successfull .left-text h3{
+	font-size: 52px;
+	line-height: 62px;
+	color: #F05162;
+	margin: 0px 10px 5px 0px;
+}
+.successfull .left-text h3 p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #526285 ;
+	margin: 0px 15px 10px 0px;
+}
+.successfull .right-text{
+	width: 100%;
+	float: left;
+}
+.successfull .right-text h3{
+	font-size: 52px;
+	line-height: 62px;
+	color: #061E4F;
+	margin: 0px 20px 5px;
+}
+
+/* successfull section css End */
+
+/* feature section css start */
+
+.feature{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 80px;
+}
+.inner-feature{
+	width: 75%;
+	float: left;
+	padding: 40px;
+	margin: 0px 20px;
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+}
+.cl1{
+	background: #FDEBED;
+}
+.cl2{
+	background: #EBF9F4;
+}
+.cl3{
+	background: #FFF7E8;
+}
+.inner-feature h4{
+	font-size: 20px;
+	line-height: 30px;
+	color: #0B2253;
+	margin: 0px 0px 10px;
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+}
+/* feature section css End */
+
+/* footer section  css start */
+
+.footer{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.footer p a{
+	font-weight: 700;
 	color: #fff;
-	padding: 0px 0px 0px 20px;
+	text-transform: uppercase;
 }
+.header .rakib li a:hover, .header .rakib li a:focus{
+	color: #008AFF;
+}
+/* footer section  css End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
